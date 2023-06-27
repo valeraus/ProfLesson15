@@ -1,0 +1,14 @@
+﻿<Window x:Class="AddTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="NumberTextBox" HorizontalAlignment="Left" Margin="91,48,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="572" Height="169"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="165,288,0,0" VerticalAlignment="Top" Height="43" Width="458" Click="Button_Click"/>
+
+    </Grid>
+</Window>
